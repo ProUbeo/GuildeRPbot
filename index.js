@@ -13,8 +13,6 @@ bot.login(process.env.TOKEN);
 
 
 bot.on('message', message => {
-    if (message.content === "TEST"){
-        message.channel.send("Test")
-    }
+
 }
 )
