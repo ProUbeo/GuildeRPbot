@@ -30,7 +30,7 @@ if(message.content.startsWith("/1000 tsunami")){
 }
 if(message.content.startsWith("/dragon cry")){
     message.channel.send(`**${message.author.username}** lance le dragon cry (type dragon) !\nDégâts : 200 \nDégâts sur utilisateur : 100`,{
-    file: "https://i0.wp.com/www.leretourdesdragons.com/wp-content/uploads/2015/02/065-energie-dragon-esprit-dragon.jpg?resize=750%2C400&ssl=1"
+    file: "https://orig00.deviantart.net/18ba/f/2016/094/8/8/red_crystal_dragon_by_sandara-d9xs66f.jpg"
 })
 }
 }
