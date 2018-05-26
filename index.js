@@ -23,5 +23,17 @@ if(message.content.startsWith("/tempete solaire")){
     file: "https://static.usbeketrica.com/images/thumb_840xh/58fdff01a0c68.jpg"
 })
 }
+if(message.content.startsWith("/1000 tsunami")){
+    message.channel.send(`**${message.author.username}** lance les 1000 tsunami (type eau) !\nDégâts : 200 \nDégâts sur utilisateur : 100`,{
+    file: "https://socialunderground.com/wp-content/uploads/2016/06/feature_tsunami.jpg"
+})
+}
+if(message.content.startsWith("/dragon cry")){
+    message.channel.send(`**${message.author.username}** lance le dragon cry (type dragon) !\nDégâts : 200 \nDégâts sur utilisateur : 100`,{
+    file: "https://vignette.wikia.nocookie.net/avatara-fatum/images/0/00/Undead_dragon.jpg/revision/latest?cb=20160224094334&path-prefix=fr"
+    file: "https://vignette.wikia.nocookie.net/risingdawn/images/c/c1/Pyrese.jpg/revision/latest?cb=20131222230556"
+    file: "https://i0.wp.com/www.leretourdesdragons.com/wp-content/uploads/2015/02/065-energie-dragon-esprit-dragon.jpg?resize=750%2C400&ssl=1"
+})
+}
 }
 )
