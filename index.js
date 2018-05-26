@@ -13,8 +13,8 @@ bot.login(process.env.TOKEN);
 
 
 bot.on('message', message => {
-     if(message.content.startsWith("/destructor **${message.guildmember}**")){
-        message.channel.send(`**${message.author.username}** lance la capacité de dark sur **${message.guildmember}** !\nDégâts : 200 \nDégâts sur utilisateur : 100`,{
+     if(message.content.startsWith("/destructor **${guild.member.speaking}**")){
+        message.channel.send(`**${message.author.username}** lance la capacité de dark sur **${guild.member.speaking}** !\nDégâts : 200 \nDégâts sur utilisateur : 100`,{
         file: "http://img.maxisciences.com/article/planete/que-se-passera-t-il-si-la-terre-s-arrete-de-tourner_7615fcfc450f978e6ad0da439cd7a69e419b5846.jpg"
     })
 }
