@@ -33,5 +33,20 @@ if(message.content.startsWith("/dragon cry")){
     file: "https://orig00.deviantart.net/18ba/f/2016/094/8/8/red_crystal_dragon_by_sandara-d9xs66f.jpg"
 })
 }
+if(message.content.startsWith("/meteorite")){
+    message.channel.send(`**${message.author.username}** lance la pluie de météorites (type roche) !\nDégâts : 200 \nDégâts sur utilisateur : 100`,{
+    file: "http://www.alex-bernardini.fr/espace/images/planetes/ceinture-asteroides.jpg"
+})
+}
+if(message.content.startsWith("/mere nature")){
+    message.channel.send(`**${message.author.username}** lance mère nature (type nature) !\nDégâts : 200 \nDégâts sur utilisateur : 100`,{
+    file: "http://www.zakstudio.com/wp-content/uploads/2013/10/mere-nature-feuille-automne.jpg"
+})
+}
+if(message.content.startsWith("/supernova")){
+    message.channel.send(`**${message.author.username}** lance une supernova (type lumière) !\nDégâts : 200 \nDégâts sur utilisateur : 100`,{
+    file: "http://www.cosmosup.com/wp-content/uploads/2014/04/rsz_hd-wallpapers-supernova-1920x1440-wallpaper-700x325.jpg"
+})
+}
 }
 )
