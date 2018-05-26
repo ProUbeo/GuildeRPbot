@@ -19,8 +19,8 @@ bot.on('message', message => {
     })
 }
 if(message.content.startsWith("/tempete solaire")){
-    message.channel.send(`**${message.author.username}** lance destructor !\nDégâts : 200 \nDégâts sur utilisateur : 100`,{
-    file: "http://img.maxisciences.com/article/planete/que-se-passera-t-il-si-la-terre-s-arrete-de-tourner_7615fcfc450f978e6ad0da439cd7a69e419b5846.jpg"
+    message.channel.send(`**${message.author.username}** lance tempète solaire (type feu) !\nDégâts : 200 \nDégâts sur utilisateur : 100`,{
+    file: "https://static.usbeketrica.com/images/thumb_840xh/58fdff01a0c68.jpg"
 })
 }
 }
