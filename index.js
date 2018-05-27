@@ -83,5 +83,40 @@ if(message.content.startsWith("/etoile")){
     file: "https://cdn.discordapp.com/attachments/437885612079710208/450316672159711233/sirius.png"
 })
 }
+if(message.content.startsWith("/diablotin")){
+    message.channel.send(`**${message.author.username}** lance un diablotin (type dark) !\nDégâts : 50`,{
+    file: "https://cdn.discordapp.com/attachments/437885612079710208/450318280335425546/damon_10.png"
+})
+}
+if(message.content.startsWith("/droite")){
+    message.channel.send(`**${message.author.username}** lance une droite enflammé (type feu) !\nDégâts : 50`,{
+    file: "https://cdn.discordapp.com/attachments/437885612079710208/450318612746600448/inferno-fire-fist-37666152.png"
+})
+}
+if(message.content.startsWith("/pistolet")){
+    message.channel.send(`**${message.author.username}** lance des balles à eau (type eau) !\nDégâts : 50`,{
+    file: "https://cdn.discordapp.com/attachments/437885612079710208/450321685913272321/unknown.png"
+})
+}
+if(message.content.startsWith("/morsure")){
+    message.channel.send(`**${message.author.username}** lance une morsure de dragon (type dragon) !\nDégâts : 50`,{
+    file: "https://risibank.fr/cache/stickers/d647/64767-full.png"
+})
+}
+if(message.content.startsWith("/tremblement")){
+    message.channel.send(`**${message.author.username}** lance un tremblement de terrre (type roche) !\nDégâts : 50`,{
+    file: "https://www.nationalgeographic.fr/sites/france/files/styles/image_1190/public/2-booktalk-quakeland.jpg"
+})
+}
+if(message.content.startsWith("/roses")){
+    message.channel.send(`**${message.author.username}** lance des roses (type nature) !\nDégâts : 50`,{
+    file: "http://lescoquelicots.l.e.pic.centerblog.net/410185a4.jpg"
+})
+}
+if(message.content.startsWith("/eblouissement")){
+    message.channel.send(`**${message.author.username}** lance un éblouissement (type lumière) !\nDégâts : 50`,{
+    file: "http://tpe-mmkj.e-monsite.com/medias/images/eblouissement.jpg"
+})
+}
 }
 )
