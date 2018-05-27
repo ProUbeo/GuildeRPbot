@@ -48,5 +48,10 @@ if(message.content.startsWith("/supernova")){
     file: "http://www.cosmosup.com/wp-content/uploads/2014/04/rsz_hd-wallpapers-supernova-1920x1440-wallpaper-700x325.jpg"
 })
 }
+if(message.content.startsWith("/ombres vivante")){
+    message.channel.send(`**${message.author.username}** lance des ombres vivante (type dark) !\nDégâts : 200`,{
+    file: "http://www.voxspiriti.com/images/esprits-obsesseurs.jpg"
+})
+}
 }
 )
