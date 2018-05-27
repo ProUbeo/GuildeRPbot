@@ -58,5 +58,10 @@ if(message.content.startsWith("/bombe")){
     file: "https://media.discordapp.net/attachments/437885612079710208/450312212297285634/landscape-1476123096-screen-shot-2016-10-10-at-21009-pm.png"
 })
 }
+if(message.content.startsWith("/pluie")){
+    message.channel.send(`**${message.author.username}** lance une averse acide (type eau) !\nDégâts : 100`,{
+    file: "https://cdn.discordapp.com/attachments/437885612079710208/450313267433439254/depositphotos_21550689-stock-illustration-cartoon-acid-rain-drop.png"
+})
+}
 }
 )
