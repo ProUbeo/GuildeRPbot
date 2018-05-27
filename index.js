@@ -49,8 +49,13 @@ if(message.content.startsWith("/supernova")){
 })
 }
 if(message.content.startsWith("/ombres vivante")){
-    message.channel.send(`**${message.author.username}** lance des ombres vivante (type dark) !\nDégâts : 200`,{
+    message.channel.send(`**${message.author.username}** lance des ombres vivante (type dark) !\nDégâts : 100`,{
     file: "http://www.voxspiriti.com/images/esprits-obsesseurs.jpg"
+})
+}
+if(message.content.startsWith("/bombe")){
+    message.channel.send(`**${message.author.username}** lance une Tsar bomba (type feu) !\nDégâts : 100`,{
+    file: "https://media.discordapp.net/attachments/437885612079710208/450312212297285634/landscape-1476123096-screen-shot-2016-10-10-at-21009-pm.png"
 })
 }
 }
