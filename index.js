@@ -63,5 +63,25 @@ if(message.content.startsWith("/pluie")){
     file: "https://cdn.discordapp.com/attachments/437885612079710208/450313267433439254/depositphotos_21550689-stock-illustration-cartoon-acid-rain-drop.png"
 })
 }
+if(message.content.startsWith("/ecailles")){
+    message.channel.send(`**${message.author.username}** lance des écailles de dragon (type dragon) !\nDégâts : 100`,{
+    file: "https://monkeydluffy1989.files.wordpress.com/2011/11/render_natsu_dragneel.png"
+})
+}
+if(message.content.startsWith("/homme bouse")){
+    message.channel.send(`**${message.author.username}** lance un homme de bouse (type roche) !\nDégâts : 100`,{
+    file: "https://i.pinimg.com/originals/8f/39/69/8f3969b9c9ce49461c0da63590cee4f3.jpg"
+})
+}
+if(message.content.startsWith("/surcroissance")){
+    message.channel.send(`**${message.author.username}** lance une surcroissance naturel (type nature) !\nDégâts : 100`,{
+    file: "https://cdn.discordapp.com/attachments/437885612079710208/450316060936110092/photo-l-alsace-gerard-mura-1427792802.png"
+})
+}
+if(message.content.startsWith("/etoile")){
+    message.channel.send(`**${message.author.username}** lance une étoile (type lumière) !\nDégâts : 100`,{
+    file: "https://cdn.discordapp.com/attachments/437885612079710208/450316672159711233/sirius.png"
+})
+}
 }
 )
