@@ -163,5 +163,17 @@ if (message.content === "/aide combat"){
     
     message.channel.send({embed});
 }
+if (message.content === "/aide combat 1"){  
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Attaques de 200")
+    .setColor(0xcc0099)
+    .setDescription("Les attaques de 200 sont destructrice et elle vous retire 100 points de vie quand \nvous les faites , c'est pour cela que on ne les utilises obligatoirement que 3 fois .")
+    .setFooter("Si il y a un problème , voir chef de guilde")
+    .addField("Attaques et leur types",
+      "/destructor : fait 200 dégâts mais vous perdez 100 points de vie (type dark)\n/tempete solaire : fait 200 dégâts mais vous perdez 100 points de vie (type feu)\n/1000 tsunami : fait 200 dégâts mais vous perdez 100 points de vie (type eau)\n/dragon cry : fait 200 dégâts mais vous perdez 100 points de vie (type dragon)\n/meteorite : fait 200 dégâts mais vous perdez 100 points de vie (type roche)\n/mere nature : fait 200 dégâts mais vous perdez 100 points de vie (type nature)\n/supernova : fait 200 dégâts mais vous perdez 100 points de vie (type lumière)")
+      
+    message.channel.send({embed});
+}
 }
 )
