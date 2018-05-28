@@ -113,8 +113,43 @@ if(message.content.startsWith("/roses")){
     file: "http://lescoquelicots.l.e.pic.centerblog.net/410185a4.jpg"
 })
 }
-if(message.content.startsWith("/eblouissement")){
+if(message.content.startsWith("/rayon")){
     message.channel.send(`**${message.author.username}** lance un éblouissement (type lumière) !\nDégâts : 50`,{
+    file: "https://fr.cdn.v5.futura-sciences.com/buildsv6/images/wide1920/4/9/4/494173d4ab_124246_superman-rayon-laser.jpg"
+})
+}
+if(message.content.startsWith("/possession")){
+    message.channel.send(`**${message.author.username}** lance un esprit qui peux posséder un adversaire (type dark) !\nDégâts : 25`,{
+    file: "http://static.hitek.fr/img/actualite/2016/01/14/w_tv-fullscreen-ledernierexw0079685-csn-655fc.jpg"
+})
+}
+if(message.content.startsWith("/tnt")){
+    message.channel.send(`**${message.author.username}** lance une explosion (type feu) !\nDégâts : 25`,{
+    file: "https://cdn.pixabay.com/photo/2016/03/31/15/13/dynamite-1293082_960_720.png"
+})
+}
+if(message.content.startsWith("/noyade")){
+    message.channel.send(`**${message.author.username}** lance une mer où se noie l'adversaire (type eau) !\nDégâts : 25`,{
+    file: "http://actu7.info/wp-content/uploads/2017/05/noyade-OKKKKK.jpg"
+})
+}
+if(message.content.startsWith("/parade")){
+    message.channel.send(`**${message.author.username}** lance une parade du dragon (type dragon) !\nDégâts : 25`,{
+    file: "https://thumbs.dreamstime.com/b/dragon-chinois-dans-un-d%C3%A9fil%C3%A9-39078227.jpg"
+})
+}
+if(message.content.startsWith("/cailloux")){
+    message.channel.send(`**${message.author.username}** lance une averse de cailloux (type roche) !\nDégâts : 25`,{
+    file: "https://www.tereaflandres.com/69-large_default/cailloux-concasse-vert-ox-2040-en-sac.jpg"
+})
+}
+if(message.content.startsWith("/prison")){
+    message.channel.send(`**${message.author.username}** lance une prison enfleurie (type nature) !\nDégâts : 25`,{
+    file: "https://i.ytimg.com/vi/iFKQvpEOv0w/maxresdefault.jpg"
+})
+}
+if(message.content.startsWith("/eblouissement")){
+    message.channel.send(`**${message.author.username}** lance un éblouissement (type lumière) !\nDégâts : 25`,{
     file: "http://tpe-mmkj.e-monsite.com/medias/images/eblouissement.jpg"
 })
 }
