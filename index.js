@@ -153,11 +153,11 @@ if(message.content.startsWith("/eblouissement")){
     file: "http://tpe-mmkj.e-monsite.com/medias/images/eblouissement.jpg"
 })
 }
-if (message.content === "/aide combat" ){  
+if (message.content === "/aide combat"){  
 
     const embed = new Discord.RichEmbed()
     .setTitle("aide pour les commandes de combat")
-    .setColor(950709)
+    .setColor(9E2207)
     .setDescription("pour les attaques de 200 , voir /aide combat 1 n\pour les attaques de 100 , voir /aide combat 2 n\pour les attaques de 50 , voir /aide combat 3 n\et pour voir les attaques de 25 , voir /aide combat 4")
     .setFooter("Si il y a un problème , voir chef de guilde")
     
