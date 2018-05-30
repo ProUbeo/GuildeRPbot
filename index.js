@@ -158,7 +158,7 @@ if (message.content === "/aide combat"){
     const embed = new Discord.RichEmbed()
     .setTitle("aide pour les commandes de combat")
     .setColor(0xcc0099)
-    .setDescription("pour les attaques de 200 , voir /aide combat 1 \npour les attaques de 100 , voir /aide combat 2 \npour les attaques de 50 , voir /aide combat 3 \npour les attaques de 25 , voir /aide combat 4")
+    .setDescription("pour les attaques de 200 , voir /aide combat 1 \npour les attaques de 100 , voir /aide combat 2 \npour les attaques de 50 , voir /aide combat 3 \npour les attaques de 25 , voir /aide combat 4 \npour la défense , voir /aide defense")
     .setFooter("Si il y a un problème , voir chef de guilde")
     
     message.channel.send({embed});
@@ -172,6 +172,42 @@ if (message.content === "/aide combat 1"){
     .setFooter("Si il y a un problème , voir chef de guilde")
     .addField("Attaques et leur types",
       "/destructor : fait 200 dégâts mais vous perdez 100 points de vie (type dark)\n/tempete solaire : fait 200 dégâts mais vous perdez 100 points de vie (type feu)\n/1000 tsunami : fait 200 dégâts mais vous perdez 100 points de vie (type eau)\n/dragon cry : fait 200 dégâts mais vous perdez 100 points de vie (type dragon)\n/meteorite : fait 200 dégâts mais vous perdez 100 points de vie (type roche)\n/mere nature : fait 200 dégâts mais vous perdez 100 points de vie (type nature)\n/supernova : fait 200 dégâts mais vous perdez 100 points de vie (type lumière)")
+      
+    message.channel.send({embed});
+}
+if (message.content === "/aide combat 2"){  
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Attaques de 100")
+    .setColor(0xcc0099)
+    .setDescription("Les attaques de 100 sont sympathique , mais on peut seulement les utiliser 1 fois .")
+    .setFooter("Si il y a un problème , voir chef de guilde")
+    .addField("Attaques et leur types",
+      "/ombres vivante : fait 100 dégâts (type dark)\n/ : fait 100 dégâts (type feu)\n/pluie : fait 100 dégâts (type eau)\n/ecailles: fait 100 dégâts (type dragon)\n/homme bouse : fait 100 dégâts (type roche)\n/surcroissance : fait 100 dégâts (type nature)\n/etoile : fait 100 dégâts (type lumière)")
+      
+    message.channel.send({embed});
+}
+if (message.content === "/aide combat 3"){  
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Attaques de 50")
+    .setColor(0xcc0099)
+    .setDescription("Les attaques de 50 sont basique .")
+    .setFooter("Si il y a un problème , voir chef de guilde")
+    .addField("Attaques et leur types",
+      "/diablotin : fait 50 dégâts (type dark)\n/droite : fait 50 dégâts (type feu)\n/pistolet : fait 50 dégâts (type eau)\n/morsure : fait 50 dégâts (type dragon)\n/tremblement : fait 50 dégâts (type roche)\n/roses : fait 50 dégâts (type nature)\n/rayon : fait 50 dégâts (type lumière)")
+      
+    message.channel.send({embed});
+}
+if (message.content === "/aide combat 4"){  
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Attaques de 25")
+    .setColor(0xcc0099)
+    .setDescription("Les attaques de 25 sont pratiquement inutile .")
+    .setFooter("Si il y a un problème , voir chef de guilde")
+    .addField("Attaques et leur types",
+      "/possession: fait 25 dégâts (type dark)\n/tnt : fait 25 dégâts (type feu)\n/noyade : fait 25 dégâts (type eau)\n/parade : fait 25 dégâts (type dragon)\n/cailloux : fait 25 dégâts (type roche)\n/prison : fait 25 dégâts (type nature)\n/eblouissement : fait 25 dégâts (type lumière)")
       
     message.channel.send({embed});
 }
