@@ -154,37 +154,42 @@ if(message.content.startsWith("/eblouissement")){
 })
 }
 if(message.content.startsWith("/portail")){
-    message.channel.send(`**${message.author.username}** se protège avec un portail (type dark) !,{
+    message.channel.send(`**${message.author.username}** se protège avec un portail (type dark) !`,{
     file: "https://www.messagescelestes-archives.ca/wp-content/uploads/2017/03/portail-d%C3%A9quinoxe.jpg"
 })
 }
 if(message.content.startsWith("/deflagration")){
-    message.channel.send(`**${message.author.username}** se protège avec une déflagration d attaque (type feu) !,{
+    message.channel.send(`**${message.author.username}** se protège avec une déflagration d attaque (type feu) !`,{
+    file: "https://blog.cachefly.net/wp-content/uploads/2018/02/Fireball.jpg"
+})
+}
+if(message.content.startsWith("/deflagration")){
+    message.channel.send(`**$(message.author.username}** se protège avec une déflagration d'attaque (type feu) !`,{
     file: "https://blog.cachefly.net/wp-content/uploads/2018/02/Fireball.jpg"
 })
 }
 if(message.content.startsWith("/clone")){
-    message.channel.send(`**${message.author.username}** se protège car c'était un clone , il vous a prank (type eau) !,{
+    message.channel.send(`**$(message.author.username}** se protège car c'était un clone , il vous a prank (type eau) !`,{
     file: "http://i.dailymail.co.uk/i/pix/2015/12/01/15/2EF6741E00000578-3341271-image-a-18_1448983601217.jpg"
 })
 }
 if(message.content.startsWith("/esquive ciel")){
-    message.channel.send(`**${message.author.username}** se protège en fesant une esquive du ciel (type dragon) !,{
+    message.channel.send(`**${message.author.username}** se protège en fesant une esquive du ciel (type dragon) !`,{
     file: "http://le-grimoire-de-sorcellerie.fr/voldragogon.jpg"
 })
 }
 if(message.content.startsWith("/muraille")){
-    message.channel.send(`**${message.author.username}** se protège avec une muraille (type roche) !,{
+    message.channel.send(`**${message.author.username}** se protège avec une muraille (type roche) !`,{
     file: "https://thumbs.dreamstime.com/b/grande-muraille-de-terre-76675865.jpg"
 })
 }
 if(message.content.startsWith("/lianes")){
-    message.channel.send(`**${message.author.username}** se protège avec des lianes (type nature) !,{
+    message.channel.send(`**${message.author.username}** se protège avec des lianes (type nature) !`,{
     file: "http://footage.framepool.com/shotimg/qf/697390176-racine-aerienne-liane-kenya-arbre.jpg"
 })
 }
 if(message.content.startsWith("/godspeed")){
-    message.channel.send(`**${message.author.username}** esquive avec sa vitesse divine (type lumière) !,{
+    message.channel.send(`**${message.author.username}** esquive avec sa vitesse divine (type lumière) !`,{
     file: "https://img00.deviantart.net/b496/i/2017/337/d/9/godspeed_killua_by_pizzapie_desu-dbvi5vs.jpg"
 })
 }
