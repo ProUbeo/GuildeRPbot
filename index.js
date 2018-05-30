@@ -183,7 +183,7 @@ if (message.content === "/aide combat 2"){
     .setDescription("Les attaques de 100 sont sympathique , mais on peut seulement les utiliser 1 fois .")
     .setFooter("Si il y a un problème , voir chef de guilde")
     .addField("Attaques et leur types",
-      "/ombres vivante : fait 100 dégâts (type dark)\n/ : fait 100 dégâts (type feu)\n/pluie : fait 100 dégâts (type eau)\n/ecailles: fait 100 dégâts (type dragon)\n/homme bouse : fait 100 dégâts (type roche)\n/surcroissance : fait 100 dégâts (type nature)\n/etoile : fait 100 dégâts (type lumière)")
+      "/ombres vivante : fait 100 dégâts (type dark)\n/bombe : fait 100 dégâts (type feu)\n/pluie : fait 100 dégâts (type eau)\n/ecailles: fait 100 dégâts (type dragon)\n/homme bouse : fait 100 dégâts (type roche)\n/surcroissance : fait 100 dégâts (type nature)\n/etoile : fait 100 dégâts (type lumière)")
       
     message.channel.send({embed});
 }
