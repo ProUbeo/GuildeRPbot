@@ -246,5 +246,17 @@ if (message.content === "/aide combat 4"){
       
     message.channel.send({embed});
 }
+if (message.content === "/aide defense"){  
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("défense")
+    .setColor(0xcc0099)
+    .setDescription("Les défenses peuvent bloquer les attaques mais on ne peut utiliser une défense qu'une fois .")
+    .setFooter("Si il y a un problème , voir chef de guilde")
+    .addField("Défense et leur types",
+      "/portail :(type dark)\n/deflagration :(type feu)\n/clone :(type eau)\n/esquive ciel :(type dragon)\n/muraille :(type roche)\n/lianes :(type nature)\n/godspeed :(type lumière)")
+      
+    message.channel.send({embed});
+}
 }
 )
