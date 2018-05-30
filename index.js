@@ -163,11 +163,6 @@ if(message.content.startsWith("/deflagration")){
     file: "https://blog.cachefly.net/wp-content/uploads/2018/02/Fireball.jpg"
 })
 }
-if(message.content.startsWith("/deflagration")){
-    message.channel.send(`**$(message.author.username}** se protège avec une déflagration d'attaque (type feu) !`,{
-    file: "https://blog.cachefly.net/wp-content/uploads/2018/02/Fireball.jpg"
-})
-}
 if(message.content.startsWith("/clone")){
     message.channel.send(`**$(message.author.username}** se protège car c'était un clone , il vous a prank (type eau) !`,{
     file: "http://i.dailymail.co.uk/i/pix/2015/12/01/15/2EF6741E00000578-3341271-image-a-18_1448983601217.jpg"
