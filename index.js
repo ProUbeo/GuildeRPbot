@@ -164,7 +164,7 @@ if(message.content.startsWith("/deflagration")){
 })
 }
 if(message.content.startsWith("/clone")){
-    message.channel.send(`**$(message.author.username}** se protège car c'était un clone , il vous a prank (type eau) !`,{
+    message.channel.send(`**${message.author.username}** se protège car c'était un clone , il vous a prank (type eau) !`,{
     file: "http://i.dailymail.co.uk/i/pix/2015/12/01/15/2EF6741E00000578-3341271-image-a-18_1448983601217.jpg"
 })
 }
