@@ -159,7 +159,7 @@ if(message.content.startsWith("/portail")){
 })
 }
 if(message.content.startsWith("/deflagration")){
-    message.channel.send(`**${message.author.username}** se protège avec une déflagration d'attaque (type feu) !,{
+    message.channel.send(`**${message.author.username}** se protège avec une déflagration d attaque (type feu) !,{
     file: "https://blog.cachefly.net/wp-content/uploads/2018/02/Fireball.jpg"
 })
 }
