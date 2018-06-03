@@ -271,7 +271,7 @@ if (randnum == 3){
 }}
 if ('guildMemberAdd', member => {
     member.author.createDM().then(channel => {
-        return channel.send('Bienvenue dans guildeRP , j espère que tu as lu les règles ' + member.DisplayName);
+        return channel.send('Bienvenue dans guildeRP , j espère que tu as lu les règles ' member.DisplayName);
     }).catch(console.error);
 }).
 }
