@@ -258,7 +258,7 @@ if (message.content === "/aide defense"){
       
     message.channel.send({embed});
 }
-if (message.content === "Bonjour"){
+if (message.content === "Bonjour DEXTRA"){
     random();
     if (randnum == 1){
      message.channel.send(`Wesh , bien ou bien .... `);
