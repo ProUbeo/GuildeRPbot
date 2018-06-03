@@ -267,7 +267,7 @@ if (randnum == 2){
     message.channel.send(`J'ai la noblesse de vous demandez "comment allez vous" ?`);
 }
 if (randnum == 3){
-    message.channel.send(`Bonjour , je suis guildeRP , le meilleur bot du monde !!! (je devrai être plus accueillant ...)`);
+    message.channel.send(`Bonjour , je suis DEXTRA , la meilleure assistante du monde !!! (je devrai être plus accueillant ...)`);
 }}
 }
 )
