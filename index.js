@@ -258,5 +258,22 @@ if (message.content === "/aide defense"){
       
     message.channel.send({embed});
 }
+if (message.content === "Bonjour"){
+    random();
+    if (randnum == 1){
+     message.channel.send(`Wesh , bien ou bien .... `);
+}
+if (randnum == 2){
+    message.channel.send(`J'ai la noblesse de vous demandez "comment allez vous" ?`);
+}
+if (randnum == 3){
+    message.channel.send(`Bonjour , je suis guildeRP , le meilleur bot du monde !!! (je devrai être plus accueillant ...)`);
+}}
 }
 )
+
+function random(min, max) {
+    min = Math.ceil(1)
+    max = Math.floor(3)
+    randnum = Math.floor(Math.random() * (max - min +1) + min);
+ }
