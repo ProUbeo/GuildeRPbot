@@ -269,11 +269,6 @@ if (randnum == 2){
 if (randnum == 3){
     message.channel.send(`Bonjour , je suis guildeRP , le meilleur bot du monde !!! (je devrai être plus accueillant ...)`);
 }}
-if ('guildMemberAdd', member => {
-    member.author.createDM().then(channel => {
-        return channel.send('Bienvenue dans guildeRP , j espère que tu as lu les règles**${member.DisplayName}**');
-    }).catch(console.error);
-}).
 }
 )
 
