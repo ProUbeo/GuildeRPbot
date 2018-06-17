@@ -258,6 +258,18 @@ if (message.content === "/aide defense"){
       
     message.channel.send({embed});
 }
+if (message.content === "/${user} carte"){  
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Carte de ${user}")
+    .setColor(0xcc0099)
+    .setDescription("Carte Nationale d'identité de ${user}")
+    .setFooter("Si il y a un problème , voir chef de guilde")
+    .addField("Stats de ${user}")
+      "Nom {user}")
+      
+    message.channel.send({embed});
+}
 if (message.content === "Bonjour DEXTRA"){
     random();
     if (randnum == 1){
