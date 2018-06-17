@@ -266,7 +266,7 @@ if (message.content === "/ ${message.username} carte"){
     .setDescription("Carte Nationale d'identité de ${username}")
     .setFooter("Si il y a un problème , voir chef de guilde")
     .addField("Stats de ${username}")
-      "Nom = {username}")
+      "Nom = ${username}")
       
     message.channel.send({embed});
 }
